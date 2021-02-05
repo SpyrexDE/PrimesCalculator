@@ -23,7 +23,8 @@ public class PrimesCalculator
 
         while(numbers.size() > 0)
         {
-            for(int i = 0; i+1<numbers.size(); i++){
+            for(int i = 0; i+1<numbers.size(); i++)
+            {
                 if(numbers.get(i) % numbers.get(0) == 0 && numbers.get(i) != numbers.get(0))
                 {
                     numbers.remove(i);
